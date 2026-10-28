@@ -1,0 +1,172 @@
+:root {
+  --bg: #f4f6fb;
+  --card: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --border: #e2e8f0;
+  --accent: #4f46e5;
+  --success: #16a34a;
+  --warning: #d97706;
+  --danger: #dc2626;
+  --inactive: #64748b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.standalone-shell {
+  padding: 0 0 32px;
+}
+
+.standalone-banner {
+  background: #312e81;
+  color: #e0e7ff;
+  padding: 10px 20px;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+.mfe-page {
+  padding: 24px;
+}
+
+.mfe-heading h1 {
+  margin: 0 0 4px;
+  font-size: 24px;
+}
+
+.mfe-heading p {
+  margin: 0 0 20px;
+  color: var(--muted);
+}
+
+.table-wrap {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+}
+
+th {
+  background: #f8fafc;
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.badge-active,
+.badge-paid {
+  background: #dcfce7;
+  color: var(--success);
+}
+
+.badge-inactive,
+.badge-refunded {
+  background: #fee2e2;
+  color: var(--danger);
+}
+
+.badge-pending {
+  background: #ffedd5;
+  color: var(--warning);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.error-text {
+  color: var(--danger);
+}
+
+.back-link {
+  font-size: 14px;
+}
+
+.detail-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.detail-card h2 {
+  margin: 0 0 16px;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px 24px;
+  margin: 0;
+}
+
+.detail-grid dt {
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.detail-grid dd {
+  margin: 4px 0 0;
+  font-size: 15px;
+}
+
+.section-title {
+  margin: 0 0 12px;
+  font-size: 16px;
+}

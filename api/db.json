@@ -1,0 +1,174 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Aisha Khan",
+      "email": "aisha.khan@example.com",
+      "role": "Admin",
+      "status": "active",
+      "joined": "2024-01-12",
+      "city": "Austin"
+    },
+    {
+      "id": 2,
+      "name": "Ben Ortiz",
+      "email": "ben.ortiz@example.com",
+      "role": "Analyst",
+      "status": "active",
+      "joined": "2024-03-02",
+      "city": "Denver"
+    },
+    {
+      "id": 3,
+      "name": "Chen Wei",
+      "email": "chen.wei@example.com",
+      "role": "Manager",
+      "status": "active",
+      "joined": "2023-11-18",
+      "city": "Seattle"
+    },
+    {
+      "id": 4,
+      "name": "Diya Patel",
+      "email": "diya.patel@example.com",
+      "role": "Support",
+      "status": "active",
+      "joined": "2024-06-21",
+      "city": "Chicago"
+    },
+    {
+      "id": 5,
+      "name": "Evan Cole",
+      "email": "evan.cole@example.com",
+      "role": "Analyst",
+      "status": "inactive",
+      "joined": "2023-08-09",
+      "city": "Boston"
+    },
+    {
+      "id": 6,
+      "name": "Farah Ali",
+      "email": "farah.ali@example.com",
+      "role": "Manager",
+      "status": "active",
+      "joined": "2024-02-14",
+      "city": "New York"
+    },
+    {
+      "id": 7,
+      "name": "Grace Lee",
+      "email": "grace.lee@example.com",
+      "role": "Support",
+      "status": "active",
+      "joined": "2025-01-07",
+      "city": "Portland"
+    },
+    {
+      "id": 8,
+      "name": "Hiro Tanaka",
+      "email": "hiro.tanaka@example.com",
+      "role": "Admin",
+      "status": "active",
+      "joined": "2023-05-30",
+      "city": "San Jose"
+    }
+  ],
+  "orders": [
+    {
+      "id": 101,
+      "userId": 1,
+      "product": "Pro Plan",
+      "amount": 129,
+      "status": "paid",
+      "date": "2026-03-04"
+    },
+    {
+      "id": 102,
+      "userId": 2,
+      "product": "Analytics Add-on",
+      "amount": 49,
+      "status": "paid",
+      "date": "2026-03-11"
+    },
+    {
+      "id": 103,
+      "userId": 3,
+      "product": "Team Plan",
+      "amount": 299,
+      "status": "pending",
+      "date": "2026-03-18"
+    },
+    {
+      "id": 104,
+      "userId": 4,
+      "product": "Starter Plan",
+      "amount": 29,
+      "status": "paid",
+      "date": "2026-04-02"
+    },
+    {
+      "id": 105,
+      "userId": 6,
+      "product": "Team Plan",
+      "amount": 299,
+      "status": "paid",
+      "date": "2026-04-09"
+    },
+    {
+      "id": 106,
+      "userId": 1,
+      "product": "Support Pack",
+      "amount": 79,
+      "status": "refunded",
+      "date": "2026-04-15"
+    },
+    {
+      "id": 107,
+      "userId": 7,
+      "product": "Starter Plan",
+      "amount": 29,
+      "status": "paid",
+      "date": "2026-05-01"
+    },
+    {
+      "id": 108,
+      "userId": 8,
+      "product": "Pro Plan",
+      "amount": 129,
+      "status": "pending",
+      "date": "2026-05-12"
+    },
+    {
+      "id": 109,
+      "userId": 3,
+      "product": "Analytics Add-on",
+      "amount": 49,
+      "status": "paid",
+      "date": "2026-06-03"
+    },
+    {
+      "id": 110,
+      "userId": 2,
+      "product": "Pro Plan",
+      "amount": 129,
+      "status": "paid",
+      "date": "2026-06-20"
+    },
+    {
+      "id": 111,
+      "userId": 6,
+      "product": "Support Pack",
+      "amount": 79,
+      "status": "pending",
+      "date": "2026-07-08"
+    },
+    {
+      "id": 112,
+      "userId": 5,
+      "product": "Starter Plan",
+      "amount": 29,
+      "status": "refunded",
+      "date": "2026-07-22"
+    }
+  ]
+}

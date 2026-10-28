@@ -1,0 +1,20 @@
+{
+  "name": "mf-dashboard",
+  "private": true,
+  "workspaces": [
+    "host",
+    "users",
+    "orders",
+    "analytics",
+    "api"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,host,users,orders,analytics,gw -c yellow,cyan,green,magenta,blue,white \"npm run start -w api\" \"npm run start -w host\" \"npm run start -w users\" \"npm run start -w orders\" \"npm run start -w analytics\" \"npm run gateway\"",
+    "gateway": "node gateway/server.js",
+    "tunnel": "npx --yes cloudflared tunnel --url http://localhost:8080"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "http-proxy": "^1.18.1"
+  }
+}
